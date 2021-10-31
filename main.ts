@@ -1,6 +1,6 @@
 let stopvar = 0
-OLED.init(128, 64)
 let gæst = 0
+OLED.init(128, 64)
 OLED.writeStringNewLine("Der har i dag vaeret: ")
 OLED.writeNum(gæst)
 OLED.writeString(" gaester")
