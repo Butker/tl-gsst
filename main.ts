@@ -4,7 +4,7 @@ let gæst = 0
 OLED.writeStringNewLine("Der har i dag vaeret: ")
 OLED.writeNum(gæst)
 OLED.writeString(" gaester")
-music.setVolume(200)
+music.setVolume(205)
 music.startMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.Once)
 basic.forever(function () {
     if (tinkercademy.ADKeyboard(ADKeys.A, AnalogPin.P2)) {
